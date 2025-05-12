@@ -1,0 +1,94 @@
+body, html {
+  margin-top: 50px;
+}
+
+/* fixing background position */
+.bg {
+  background-image: url("https://mcusercontent.com/53b80e2944e11f625f7ee7dd6/images/9f2f02bb-1f13-3e6a-994c-c594893ef194.png");
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+/* text styling */
+h2 {
+  font-size: 26px;
+  font-family: "lemonde-journal", serif;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 80%;
+}
+p {
+  font-size: 16px;
+  font-family: "lemonde-journal", serif;
+  font-weight: 400;
+  line-height: 90%;
+}
+a {
+  font-size: 24px;
+  font-style: italic;
+  color: #646464;
+}
+.star {
+  font-size: 64px;
+  justify-content: center;
+}
+
+hr {
+  border-color: #bababa;
+  border-style: solid;
+}
+
+/* setting up the grid */
+.grid {
+  padding-left: 15%;
+  padding-right: 15%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 35px 50px;
+}
+/* styling textboxes */
+.two, .six, .seven, .eleven {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px;
+  align-content: center;
+  background-color: white;
+}
+
+/* i learned through span, so it makes more sense to do this than set up grid areas */
+.one, .three, .nine, .eleven {
+  grid-column: span 4;
+}
+.two {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.four, .five, .six, .seven {
+  grid-column: span 3;
+}
+.eight, .ten {
+  grid-row: span 2;
+}
+
+/* image styling and scaling */
+img {
+  border-radius: 5px;
+}
+.glitch {
+  height: 180px;
+}
+.album {
+  height: 300px;
+}
+.vector, .portrait {
+  height: 350px;
+}
+.gif {
+  height: 165px;
+}
+#header {
+  width: 60%
+}
