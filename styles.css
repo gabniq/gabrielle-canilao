@@ -1,0 +1,229 @@
+
+/* -------------------------------------------------- */
+    /* MAIN STYLES */
+/* -------------------------------------------------- */
+
+body {
+    background: rgb(18, 18, 18);
+    margin-top: 5%;
+    margin-bottom: 8%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p {
+    font-family: "argent-pixel-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(213, 213, 213);
+    text-indent: 55px;
+}
+
+footer {
+    padding-top: 6%;
+    font-family: "argent-pixel-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(213, 213, 213);
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-family: "pf-pixelscript", sans-serif;
+    font-style: normal;
+    font-size: 64px;
+    color: white;
+}
+
+.header2 {
+    color: white;
+    font-family: "pf-pixelscript", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+
+.row {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.itch-embed {
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* -------------------------------------------------- */
+    /* NAVBAR STYLES */
+/* -------------------------------------------------- */
+
+.divider {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navbar {
+    text-align: center;
+    text-indent: 50px;
+}
+
+.navbar-link {
+    text-align: center;
+    font-family: "argent-pixel-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(196, 196, 196);
+    padding: 42px;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    color: rgb(99, 99, 99);
+}
+
+.navbar-link:active {
+    color: rgb(213, 213, 213);
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+/* -------------------------------------------------- */
+    /* TEXT STYLES */
+/* -------------------------------------------------- */
+.return {
+    font-family: "argent-pixel-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.return:hover {
+    color:rgb(99, 99, 99);
+}
+
+.main-code-link {
+    font-family: "argent-pixel-cf", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.main-code-link:hover {
+    color:rgb(59, 59, 59);
+}
+.code-link {
+    font-family: "argent-pixel-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.code-link:hover {
+    color:rgb(59, 59, 59);
+}
+
+
+
+/* -------------------------------------------------- */
+    /* IMAGE/VIDEO STYLES */
+/* -------------------------------------------------- */
+@media screen and (max-width: 1200px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+    .column2 {
+      width: 100%;
+    }
+  }
+  
+
+
+.gallery-img {
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.gallery-img:hover {
+    opacity: 0.7;
+}
+
+.column-img {
+    object-fit: cover;
+    vertical-align: center;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.column-img:hover {
+    opacity: 0.7;
+}
+
+.column2-img {
+    display: block;
+    margin: auto;
+    /* object-fit: cover; */
+    max-width: 420px;
+    max-height: 420px;
+}
+
+.column2-img:hover{
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+/* -------------------------------------------------- */
+    /* HARRY STYLES */
+/* -------------------------------------------------- */
+/* watermelon sugar high :thinking: */
